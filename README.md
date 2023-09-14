@@ -8,6 +8,9 @@ izquiera.
 
 El programa esta compuesto de 3 archivos:
 
+**video2.mp4**
+video de prueba
+
 **main.py**
 
 Este es el main del seguidor de linea negra. Aqui se llama al archivo que realiza la segmentación, desde donde se obtiene la distancia desde el centro 
@@ -21,7 +24,7 @@ Utiliza las siguientes librerías:
 (además del debuguer pdb)
 
 **ximbi_linea.py**
-Aqui se realiza la segmentación de la imagen, se define el punto de referencia del robot y se obtiene la distancia desde el 
+Aqui se realiza la segmentación de la imagen, se define el punto de referencia del robot y se obtiene la distancia desde este al centro de la linea
 
 **seguidor_de_linea.ino**
 Se utilizan las siguientes funciones:
